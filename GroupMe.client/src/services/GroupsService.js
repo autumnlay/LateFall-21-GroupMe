@@ -9,7 +9,11 @@ class GroupsService{
     logger.log(res.data)
     AppState.groups = res.data
   }
-
+  // async createGroups() {
+  //   let res = await api.post('api/groups')
+  //   logger.log(res.data)
+  //   AppState.groups = res.data
+  // }
   async getAccountGroups(){
     let res = await api.get('account/groups')
     logger.log("account groups",res.data)

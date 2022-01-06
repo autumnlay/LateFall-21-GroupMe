@@ -1,5 +1,11 @@
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using CodeWorks.Auth0Provider;
 using GroupMe.Models;
 using GroupMe.Services;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace GroupMe.Controllers
 {
